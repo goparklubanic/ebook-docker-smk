@@ -105,6 +105,7 @@ docker network create lab-network
 
 ## 6. Server DNS dan Nginx Proxy Manager
 
+<p> DNS (Domain Name System) adalah sistem untuk menghubungkan nama domain (misalnya example.com) dengan alamat IP (misalnya 192.168.1.100). Fungsi DNS pada dasarnya adalah menterjemahkan nama domain ke alamat IP dan sebaliknya.</p>
 ### 6.1 Setup Pi-hole (DNS Server & Ad Blocker)
 
 ```yaml
@@ -162,6 +163,10 @@ http://IP-SERVER:8081/admin
 
 - Aktifkan adlist
 - Tambahkan custom blacklist
+
+#### Video panduan
+
+[youtube.com](https://www.youtube.com/watch?v=kKsHo6r4_rc)
 
 ---
 
