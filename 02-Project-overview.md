@@ -10,7 +10,7 @@ Dalam project ini, docker akan digunakan untuk membangun infrastruktur server. I
 - Mail server menggunakan mailserver/docker-mailserver
 - File server menggunakan RustFS
 - Chat server menggunakan XMPP + OMEMO
-- Web server menggunakan WordPress
+- Web portal menggunakan WordPress
 - Monitoring server menggunakan Netdata
 
 ### 5.2 Port Mapping
