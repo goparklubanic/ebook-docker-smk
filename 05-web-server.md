@@ -84,7 +84,7 @@ web/
 </html>
 ```
 
-Sesuaikan konten tag <h1> untuk membedakan instance nginx dan apache. Misal. nginx1, nginx2, dan apache.
+Sesuaikan konten tag &lt;h1&gt; untuk membedakan instance nginx dan apache. Misal. nginx1, nginx2, dan apache.
 
 ### 8.5 Instalasi web server
 
