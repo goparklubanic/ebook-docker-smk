@@ -390,4 +390,4 @@ Apabila dibutuhkan container untuk development web menggunakan framework laravel
 
 ### 8.10 Registrasikan web server ke NPM
 
-Setelah web server untuk hostname web.cloud-sekolah.com sudah berjalan, maka langkah selanjutnya adalah registrasikan web server ke NPM. Lagnkah-langkanya dapat merujuk ke [04-nginx-proxy-manager.md](04-nginx-proxy-manager.md)
+Setelah web server untuk hostname web.cloud-sekolah.com sudah berjalan, maka langkah selanjutnya adalah registrasikan web server ke NPM. Lagnkah-langkanya dapat merujuk ke [04-nginx-proxy-manager.md](04-nginx-proxy-manager.md#751-proxy-host)
