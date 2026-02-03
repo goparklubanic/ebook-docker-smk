@@ -387,3 +387,7 @@ Berikut ini adalah solusi untuk masalah-masalah tersebut:
 ### 8.9 Docker untuk laravel
 
 Apabila dibutuhkan container untuk development web menggunakan framework laravel, file docker-compose.yml sebagai template sudah tersedia di [docs.docker.com](https://docs.docker.com/guides/frameworks/laravel/development-setup/)
+
+### 8.10 Registrasikan web server ke NPM
+
+Setelah web server untuk hostname web.cloud-sekolah.com sudah berjalan, maka langkah selanjutnya adalah registrasikan web server ke NPM. Lagnkah-langkanya dapat merujuk ke [04-nginx-proxy-manager.md](04-nginx-proxy-manager.md)
