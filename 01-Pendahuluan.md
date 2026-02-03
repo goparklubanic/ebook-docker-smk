@@ -54,7 +54,7 @@ Komputasi awan adalah cara menjalankan server, aplikasi, dan layanan melalui int
 
 Docker berperan dalam komputasi awan sebagai cara untuk mengemas aplikasi beserta seluruh dependensinya dalam container. Container ini dapat dijalankan di berbagai platform, termasuk di dalam virtual machine di komputasi awan. Dengan demikian, aplikasi yang dikembangkan dapat dengan mudah dijalankan di lingkungan lokal maupun di lingkungan komputasi awan.
 
-Docker dan Cloud merupakan ** standar industri **. Di dunia kerja, aplikasi hampir selalu dijalankan dalam container. Para penyedia cloud pun secara native sudah mendukung docker. Jadi tidak ada alasan untuk tidak menggunakan docker.
+Docker dan Cloud merupakan **standar industri** yang tidak dapat dihindari. Di dunia kerja, aplikasi hampir selalu dijalankan dalam container. Para penyedia cloud pun secara native sudah mendukung docker. Jadi tidak ada alasan untuk tidak menggunakan docker.
 
 ## 4. Instalasi Docker
 
