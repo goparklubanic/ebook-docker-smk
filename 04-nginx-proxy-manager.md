@@ -102,7 +102,7 @@ Layanan email akan diakses dengan aplikasi mail client, dan layanan chatting XMP
 
 #### 7.5.2 Load Balancer
 
-Ilustrasi kasus. Akses ke http://web.cloud-sekolah.com akan di-load balance ke http://192.168.1.100:8082 dan http://192.168.1.100:8083.
+Ilustrasi kasus. Akses ke http://web.cloud-sekolah.com akan di-load balance ke http://192.168.1.100:8091 dan http://192.168.1.100:8093.
 
 Untuk konfigurasi load balancer, ikuti langkah-langkah di bawah ini:
 
@@ -123,8 +123,8 @@ Untuk konfigurasi load balancer, ikuti langkah-langkah di bawah ini:
    ```nginx
    # Mendefinisikan grup server backend
    upstream backendservers {
-    server 192.168.1.100:8082;
-    server 192.168.1.100:8083;
+    server 192.168.1.100:8091;
+    server 192.168.1.100:8092;
    }
 
    # Memberitahu Nginx untuk menggunakan upstream tersebut
