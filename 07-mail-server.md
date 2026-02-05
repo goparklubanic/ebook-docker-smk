@@ -241,5 +241,7 @@ Setelah mail server bekerja dan user berhasil ditambahkan, layanan email bisa di
 Untuk konfigurasi mail client, biasanya ada opsi untuk menambahkan account dengan mengisi server IMAP, SMTP, dan port-port yang digunakan. Biasanya port untuk IMAP adalah 993, SMTP adalah 587, dan POP3 adalah 995.
 
 > rujukan dari
+
 > https://docker-mailserver.github.io/docker-mailserver/latest/examples/tutorials/basic-installation/
+
 > https://docker-mailserver.github.io/docker-mailserver/latest/config/account-management/provisioner/file/
