@@ -238,7 +238,31 @@ Setelah mail server bekerja dan user berhasil ditambahkan, layanan email bisa di
 | **FairEmail**                | ✅      | ❌  | ⭐⭐⭐⭐        | Privasi tinggi                           |
 | **Apple Mail**               | ❌      | ✅  | ⭐⭐            | Default iOS                              |
 
-Untuk konfigurasi mail client, biasanya ada opsi untuk menambahkan account dengan mengisi server IMAP, SMTP, dan port-port yang digunakan. Biasanya port untuk IMAP adalah 993, SMTP adalah 587, dan POP3 adalah 995.
+Untuk konfigurasi mail client, biasanya ada opsi untuk menambahkan account dengan mengisi server IMAP, SMTP, dan port-port yang digunakan. Biasanya port untuk IMAP adalah 993, SMTP adalah 587, dan POP3 adalah 995. Namun, karena dalam hal ini SSL belum dikonfigurasikan, maka port untuk IMAP adalah 143, SMTP adalah 25, dan POP3 adalah 110.
+
+### 10.8 Mengatasi masalah umum
+
+Masalah umum yang sering terjadi ketika menggunakan mail server adalah:
+
+1. Mail server tidak bisa diakses.
+   Solusi: Periksa konfigurasi firewall, pastikan port 25, 143, 465, 587, 993 sudah terbuka. Periksa konfigurasi DNS, pastikan MX record sudah benar. Periksa konfigurasi mail server, pastikan semua service sudah running.
+2. Tidak bisa login ke webmail
+   Solusi: Periksa konfigurasi mail server, pastikan user dan password sudah benar. Periksa log mail server di folder `/var/log/mail/` untuk mengetahui kesalahan apa yang terjadi.
+3. Tidak bisa kirim email
+   Solusi: Periksa log mail server di folder `/var/log/mail/` untuk mengetahui kesalahan apa yang terjadi. Periksa konfigurasi mail client, pastikan server dan port sudah benar.
+4. Tidak bisa terima email
+   Solusi: Periksa log mail server di folder `/var/log/mail/` untuk mengetahui kesalahan apa yang terjadi. Periksa konfigurasi DNS, pastikan MX record sudah benar. Periksa konfigurasi mail server, pastikan service SMTP sudah running.
+
+### 10.9 Registrasi ke NPM
+
+Mengapa mail server ini tidak perlu di-registrasikan ke NPM? Karena mail server ini tidak memiliki web interface. Semua operasinya dilakukan via CLI atau langsung mengakses folder konfigurasi. Sewaktu membuat MX Record, tertera baris:
+
+```text
+# A record untuk mail server
+address=/mail.cloud-sekolah.com/192.168.1.100
+```
+
+maka sesungguhnya hostname `mail.cloud-sekolah.com` sudah diregistrasikan ke NPM.
 
 > rujukan dari <br>
 > https://docker-mailserver.github.io/docker-mailserver/latest/examples/tutorials/basic-installation/ <br>
