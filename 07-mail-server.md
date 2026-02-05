@@ -115,7 +115,7 @@ Apabila tidak berhasil, berikut kemungkinan-kemungkinan permasalahan yang sering
 
 Dari tata cara setting MX Record bisa diketaui bahwa
 
-> Tidak semua konfigurasi bisa dilakukan lewat GUI.
+> Tidak semua konfigurasi bisa dilakukan lewat GUI.<br>
 > Administrator jaringan harus siap mengelola file konfigurasi langsung.
 
 **Itu semua merupakan soft skill penting di dunia kerja.**
@@ -240,8 +240,6 @@ Setelah mail server bekerja dan user berhasil ditambahkan, layanan email bisa di
 
 Untuk konfigurasi mail client, biasanya ada opsi untuk menambahkan account dengan mengisi server IMAP, SMTP, dan port-port yang digunakan. Biasanya port untuk IMAP adalah 993, SMTP adalah 587, dan POP3 adalah 995.
 
-> rujukan dari
-
-> https://docker-mailserver.github.io/docker-mailserver/latest/examples/tutorials/basic-installation/
-
+> rujukan dari <br>
+> https://docker-mailserver.github.io/docker-mailserver/latest/examples/tutorials/basic-installation/ <br>
 > https://docker-mailserver.github.io/docker-mailserver/latest/config/account-management/provisioner/file/
