@@ -207,7 +207,11 @@ Desktop App
 
 Semua aplikasi di atas gratis dan open source. Anda bisa memilih salah satu sesuai kebutuhan. Penggunaan aplikasi di atas hampir mirip dengan penggunaan aplikasi FTP client. Anda dapat mengakses file server RustFS melalui aplikasi di atas dengan menggunakan endpoint `http://192.168.1.100:9001` dan credentials ( account dan secret key ) yang
 
-### 11.7 Mengatasi masalah umum
+### 11.7 Registrasikan file server ke NPM
+
+Setelah file server untuk hostname rustfs.cloud-sekolah.com sudah berjalan, maka langkah selanjutnya adalah registrasikan file server ke NPM. Lagnkah-langkanya dapat merujuk ke [04-nginx-proxy-manager.md](04-nginx-proxy-manager.md#751-proxy-host)
+
+### 11.8 Mengatasi masalah umum
 
 Masalah umum yang sering terjadi ketika menggunakan file server adalah:
 
