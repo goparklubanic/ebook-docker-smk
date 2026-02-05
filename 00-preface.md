@@ -10,7 +10,7 @@ Waktu pelaksanaan prakerin sudah hampir jatuh tempo. Siswa prakrin sudah mau lul
 
 Ini bukan buku tutorial, bukan pula referensi. Buku ini hanya catatan sederhana dari pengalaman penulis di tempat kerja, sekaligus ungkapan _life callness_ seorang mantan buruh pengajar. Buku ini ditulis dengan harapan dapat memberikan gambaran yang lebih luas bagi pembaca, tentang bagaimana teknologi informasi bekerja di lingkungan kerja modern, juga sebagai pengantar mempelajari pengembangan layanan-layanan dalam jaringan berbasis docker. Bagi pembaca yang ingin belajar lebih dalam, silakan lengkapi dari referensi-referensi resmi dari sumber yang terpercaya dan dari buku-buku tutorial yang sudah beredar.
 
-Buku ini masih jauh dari kata sempurna. Oleh karena itu, bantuan dan dukungan dari pembaca sangat dibutuhkan. Dan untuk itu semua, kami ucapkan terima kasih kepada semua pihak yang berkenan memperbaiki buku ini. Ucapan terima kasih secara khusus penulis sampaikan kepada rekan-rekan di group whatsapp **Diskusi Umum Sahabat Ubuntu Indonesia**, yang menjadi sumber inspirasi dan motivasi untuk menyusun buku ini.
+Buku ini masih jauh dari kata sempurna. Oleh karena itu, bantuan dan dukungan dari pembaca sangat dibutuhkan. Dan untuk itu semua, kami ucapkan terima kasih kepada semua pihak yang berkenan berkontribusi untuk memperbaiki buku ini. Ucapan terima kasih secara khusus penulis sampaikan kepada rekan-rekan di group whatsapp **Diskusi Umum Sahabat Ubuntu Indonesia**, yang menjadi sumber inspirasi dan motivasi untuk menyusun buku ini.
 
 Terima kasih.
 Selamat belajar.
