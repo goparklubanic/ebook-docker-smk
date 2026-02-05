@@ -136,3 +136,45 @@ Berikut perintah windows untuk membuat folder. Pastikan terminal yang digunakan 
 ```bash
 mkdir .\docker-project\{pihole,npm,web,mariadb,postgres,mail,rustfs,chat,wordpress,netdata}
 ```
+
+## 5.8 Self-Signed Certificate
+
+Beberapa layanan, mungkin akan membutuhkan sertifikat SSL untuk keamanan. Project ini diasumsikan hanya berjalan di lingkungan internal, dan tidak menggunakan public domain. Oleh karena itu, sertifikat SSL dapat dibuat dengan sendiri dengan menggunakan tools sertifikat seperti mkcert, ya tool, sth.
+
+Berikut ini langkah-langkah untuk membuat sertifikat SSL dengan mkcert:
+
+1. install mkcert
+   1.1 Linux
+
+```bash
+sudo apt install mkcert
+```
+
+1.2 Windows
+
+download dari https://github.com/FiloSottile/mkcert/releases dan tambahkan ke PATH
+
+2. jalankan mkcert untuk membuat sertifikat root dan trust ke browser dengan perintah
+
+```bash
+mkcert -install
+```
+
+untuk membuat root certificate dan trust ke browser.
+
+3. Siapkan folder untuk menyimpan sertifikat. Diasumsikan folder project sudah dibuat di `~/docker-project` untuk linux dan `D:\docker-project` untuk windows. Buat folder `certs` di dalam folder project, kemudian masuk ke dalam folder tersebut.
+
+```bash
+mkdir -p /home/user/docker-project/certs
+cd /home/user/docker-project/certs
+```
+
+4. Terbitkan sertifikat untuk domain cloud-sekolah.com dengan perintah
+
+```bash
+mkcert "*.cloud-sekolah.com"
+```
+
+Hasilknya adalah 2 file sertifikat, yaitu `*.cloud-sekolah.com.pem` dan `*.cloud-sekolah.com-key.pem`.
+
+5. Copy file-file tersebut ke folder `certs` di project docker yang sudah dibuat sebelumnya.
