@@ -151,6 +151,12 @@ services:
     restart: always
 ```
 
+Jika akan ditambahkan sertifikat ssl, tambahkan file-file sertifikat dari mkcert ke folder `./docker-data/dms/config/ssl`. File-file tersebut adalah - `mail.cloud-sekolah.com.pem`<br>
+
+- `mail.cloud-sekolah.com-key.pem`<br>
+
+- `demoCA/cacert.pem` (jika ditemukan)
+
 ### 10.5.4 Jalankan mailserver/docker-mailserver
 
 Jalankan perintah
