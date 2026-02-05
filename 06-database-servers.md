@@ -260,3 +260,7 @@ Berikut ini adalah solusi untuk masalah-masalah tersebut:
    Solusi: Pastikan konfigurasi database server sudah benar. Pastikan file konfigurasi database server sudah benar. Pastikan file index.html atau index.php sudah benar.
 5. Database server tidak bisa diakses dari container lain
    Solusi: Pastikan database server sudah dijalankan. Pastikan port database server sudah dimapping ke host. Pastikan konfigurasi firewall sudah benar. Periksa komponen environment variabel di docker-compose.yml.
+
+### 9.7 Registrasi database server ke NPM
+
+Setelah database server untuk hostname db.cloud-sekolah.com dan pg.cloud-sekolah.com sudah berjalan, maka langkah selanjutnya adalah registrasikan database server ke NPM. Lagnkah-langkanya dapat merujuk ke [04-nginx-proxy-manager.md](04-nginx-proxy-manager.md#751-proxy-host)

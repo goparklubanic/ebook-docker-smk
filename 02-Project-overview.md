@@ -40,7 +40,7 @@ Berikut adalah daftar port mapping yang akan digunakan dalam project ini:
 | MariaDB                      | 3306                   | 3306                   | Database server                                |
 | PostgreSQL                   | 5432                   | 5432                   | Database server                                |
 | mailserver/docker-mailserver | 25, 143, 465, 587, 993 | 25, 143, 465, 587, 993 | SMTP, IMAP, POP3, SMTPS, IMAPS                 |
-| RustFS                       | 8083                   | 80                     | File server                                    |
+| RustFS                       | 9000,9001              | 9000,9001              | File server                                    |
 | XMPP + OMEMO                 | 5222, 5269, 5443       | 5222, 5269, 5443       | XMPP client-to-server, server-to-server, HTTPS |
 | WordPress                    | 8084                   | 80                     | Web server                                     |
 | Netdata                      | 19999                  | 19999                  | Monitoring server                              |
