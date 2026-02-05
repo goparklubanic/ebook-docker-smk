@@ -255,14 +255,7 @@ Masalah umum yang sering terjadi ketika menggunakan mail server adalah:
 
 ### 10.9 Registrasi ke NPM
 
-Mengapa mail server ini tidak perlu di-registrasikan ke NPM? Karena mail server ini tidak memiliki web interface. Semua operasinya dilakukan via CLI atau langsung mengakses folder konfigurasi. Sewaktu membuat MX Record, tertera baris:
-
-```text
-# A record untuk mail server
-address=/mail.cloud-sekolah.com/192.168.1.100
-```
-
-maka sesungguhnya hostname `mail.cloud-sekolah.com` sudah diregistrasikan ke NPM.
+Mengapa mail server ini tidak perlu di-registrasikan ke NPM? Karena mail server ini tidak memiliki web interface. Semua operasinya dilakukan via CLI atau langsung mengakses folder konfigurasi.
 
 > rujukan dari <br>
 > https://docker-mailserver.github.io/docker-mailserver/latest/examples/tutorials/basic-installation/ <br>
