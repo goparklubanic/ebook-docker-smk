@@ -144,7 +144,8 @@ Beberapa layanan, mungkin akan membutuhkan sertifikat SSL untuk keamanan. Projec
 Berikut ini langkah-langkah untuk membuat sertifikat SSL dengan mkcert:
 
 1. install mkcert
-   1.1 Linux
+
+1.1 Linux
 
 ```bash
 sudo apt install mkcert
