@@ -161,7 +161,12 @@ download dari https://github.com/FiloSottile/mkcert/releases dan tambahkan ke PA
 mkcert -install
 ```
 
-untuk membuat root certificate dan trust ke browser.
+untuk membuat root certificate dan trust ke browser. **Perintah ini cukup dijalankan sekali.** Contoh output:
+
+```text
+The local CA is already installed in the system trust store! 👍
+The local CA is already installed in the Firefox and/or Chrome/Chromium trust store! 👍
+```
 
 3. Siapkan folder untuk menyimpan sertifikat. Diasumsikan folder project sudah dibuat di `~/docker-project` untuk linux dan `D:\docker-project` untuk windows. Buat folder `certs` di dalam folder project, kemudian masuk ke dalam folder tersebut.
 
