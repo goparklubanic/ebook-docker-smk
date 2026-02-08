@@ -25,30 +25,30 @@ Manfaat utama menggunakan WordPress untuk pelajar adalah sebagai tempat untuk be
 1. Mempertajam Kemampuan Kognitif & Memori. 
 Menulis membantu otak memproses informasi dengan lebih mendalam dibandingkan hanya membaca atau mendengarkan.
 
--- Retensi Informasi: Proses merangkai kalimat membantu memindahkan informasi dari memori jangka pendek ke memori jangka panjang.
+    * Retensi Informasi: Proses merangkai kalimat membantu memindahkan informasi dari memori jangka pendek ke memori jangka panjang.
 
--- Sintesis Ide: Menulis memaksa pelajar untuk menghubungkan konsep-konsep yang berbeda menjadi satu pemahaman yang utuh.
+    * Sintesis Ide: Menulis memaksa pelajar untuk menghubungkan konsep-konsep yang berbeda menjadi satu pemahaman yang utuh.
 
 2. Sarana Katarsis & Kesehatan Mental
 Bagi pelajar, menulis adalah alat regulasi emosi yang sangat efektif.
 
--- Melepaskan Stres: Menuliskan kecemasan atau tekanan pelajaran (journaling) dapat mengurangi beban mental.
+    * Melepaskan Stres: Menuliskan kecemasan atau tekanan pelajaran (journaling) dapat mengurangi beban mental.
 
--- Mengenal Diri: Membantu pelajar memahami pola pikir dan perasaan mereka sendiri terhadap suatu masalah.
+    * Mengenal Diri: Membantu pelajar memahami pola pikir dan perasaan mereka sendiri terhadap suatu masalah.
 
 3. Melatih Logika & Struktur Berpikir
 Tulisan yang baik lahir dari pikiran yang teratur. Saat menulis, seorang pelajar belajar untuk:
 
--- Berargumen: Menyusun premis dan kesimpulan secara logis.
+    * Berargumen: Menyusun premis dan kesimpulan secara logis.
 
--- Sistematis: Belajar mendahulukan apa yang penting (prioritas) agar pembaca paham alur ceritanya.
+    * Sistematis: Belajar mendahulukan apa yang penting (prioritas) agar pembaca paham alur ceritanya.
 
 4. Meningkatkan Kemampuan Komunikasi Verbal
 Seringkali, orang yang mahir menulis juga akan lebih lancar saat berbicara.
 
--- Kekayaan Kosakata: Menulis memaksa kita mencari diksi yang tepat, yang nantinya akan terbawa ke percakapan sehari-hari.
+    * Kekayaan Kosakata: Menulis memaksa kita mencari diksi yang tepat, yang nantinya akan terbawa ke percakapan sehari-hari.
 
--- Kepercayaan Diri: Karena sudah terbiasa menyusun ide di kepala, mereka cenderung lebih tenang saat harus menyampaikan pendapat di depan kelas.
+    * Kepercayaan Diri: Karena sudah terbiasa menyusun ide di kepala, mereka cenderung lebih tenang saat harus menyampaikan pendapat di depan kelas.
 
 Menulis menggunakan media wordpress memiliki manfaat tambahan, diantaranya:
 
