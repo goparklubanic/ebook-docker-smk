@@ -195,7 +195,9 @@ Jalankan perintah
 docker compose up -d
 ```
 
-dari folder `phpmyadmin/` untuk menjalankan phpMyAdmin.
+dari folder `phpmyadmin/` untuk menjalankan phpMyAdmin. Kemudian buka broser, arahkan ke 192.168.1.100:8085. Login dengan username `root` dan password `secret` untuk memastikan phpmyadmin berjalan dengan baik.
+
+
 
 ### 9.5.2 Instalasi Adminer untuk PostgreSQL
 
@@ -263,4 +265,4 @@ Berikut ini adalah solusi untuk masalah-masalah tersebut:
 
 ### 9.7 Registrasi database server ke NPM
 
-Setelah database server untuk hostname db.cloud-sekolah.com dan pg.cloud-sekolah.com sudah berjalan, maka langkah selanjutnya adalah registrasikan database server ke NPM. Lagnkah-langkanya dapat merujuk ke [04-nginx-proxy-manager.md](04-nginx-proxy-manager.md#751-proxy-host)
+Setelah database server untuk hostname db.cloud-sekolah.com, pg.cloud-sekolah.com, pma.cloud-sekolah.com (phpmyadmin), dan adminer.cloud-sekolah.com sudah berjalan, maka langkah selanjutnya adalah registrasikan database server ke NPM. Lagnkah-langkanya dapat merujuk ke [04-nginx-proxy-manager.md](04-nginx-proxy-manager.md#751-proxy-host)
