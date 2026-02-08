@@ -1,4 +1,4 @@
-## 12. CHAT SERVER (Still Conceptual)
+## 12. CHAT SERVER
 
 ### 12.1 Mengapa menggunakan chat server?
 
