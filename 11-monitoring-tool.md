@@ -49,7 +49,6 @@ services:
     image: netdata/netdata
     container_name: netdata
     pid: host
-    network_mode: host
     restart: unless-stopped
     cap_add:
       - SYS_PTRACE
@@ -68,15 +67,65 @@ services:
       - /sys:/host/sys:ro
       - /etc/os-release:/host/etc/os-release:ro
       - /var/log:/host/var/log:ro
-      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro # untuk monitoring container docker
       - /run/dbus:/run/dbus:ro
+    environment:
+      - DOCKER_USR=netdata
+      - DOCKER_GRP=netdata
+      - NETDATA_PORT=19999
+    ports:
+      - "19999:19999" # port untuk akses web interface Netdata
+    networks:
+      - lab-network
 
 volumes:
   netdataconfig:
   netdatalib:
   netdatacache:
+networks:
+  lab-network:
+    external: true
 ```
 
-> https://learn.netdata.cloud/docs/netdata-agent/installation/docker
+#### 14.5.3 Jalankan Netdata dan Periksa Log
 
-[cek qwen grovero](https://chat.qwen.ai/c/5b0ed098-75e1-4e9a-9c62-7d90f895a4e1)
+Jalankan perintah
+
+```bash
+docker compose up -d
+docker compose logs -f
+```
+
+dari folder `netdata/` untuk menjalankan Netdata.
+
+#### 14.5.4 Akses Dashboard NetData
+
+Akses dashboard Netdata di `http://192.168.1.100:19999`.
+
+#### 14.5.5 Verifikasi Deteksi Container
+
+Periksa apakah Netdata sudah mendeteksi container-container yang berjalan di host.
+
+1. Klik `Containers` di sisi kiri dashboard
+2. Jika terdeteksi, maka akan muncul daftar container yang berjalan di host, dengan beberapa parameter seperti:
+   - CPU Usage
+   - Memory Usage
+   - Network I/O
+   - Block I/O (Jika applicable)
+
+### 14.6 Pertimbangan Aspek Keamanan
+
+Supaya lebih aman, perhatikan aspek-aspek berikut dalam mengkonfigurasi Netdata:
+|Aspek|Rekomendasi|
+| --- | --- |
+|Docker Socket|Mount dengan :ro (read-only)|
+|Port Exposure|Batasi akses port 19999 via reverse proxy + auth|
+|Network|Gunakan network terisolasi (lab-network)|
+|Updates|Gunakan tag latest atau pin ke versi spesifik|
+|Storage|Gunakan named volumes (bukan bind mounts) untuk data persistence|
+
+### 14.7 Registrasi ke NPM
+
+Setelah Netdata untuk hostname netdata.cloud-sekolah.com sudah berjalan, maka langkah selanjutnya adalah registrasikan Netdata ke NPM. Lagnkah-langkanya dapat merujuk ke [04-nginx-proxy-manager.md](04-nginx-proxy-manager.md#751-proxy-host).
+
+> sumber: https://learn.netdata.cloud/docs/netdata-agent/installation/docker
