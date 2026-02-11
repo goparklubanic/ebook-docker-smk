@@ -14,9 +14,30 @@ Perkembangan teknologi jaringan dan server saat ini menuntut efisiensi, skalabil
 
 ## 1. Overview tentang Docker
 
-Docker adalah platform untuk menjalankan aplikasi di dalam _container_. Container berisi aplikasi beserta seluruh dependensinya, sehingga aplikasi dapat berjalan konsisten di berbagai lingkungan.
+Docker adalah platform terbuka untuk mengembangkan, mendistribusikan, dan menjalankan aplikasi. Docker memungkinkan Anda untuk memisahkan aplikasi Anda dari infrastruktur Anda sehingga Anda dapat mengirimkan perangkat lunak dengan cepat. Dengan Docker, Anda dapat mengelola infrastruktur Anda dengan cara yang sama seperti Anda mengelola aplikasi Anda. Dengan memanfaatkan keunggulan metodologi docker dalam mendistribusikan, menguji dan menerapkan kode, Anda dapat mengurangi jeda waktu antara penulisan kode dan menjalankannya di lingkungan produksi secara signifikan
 
-### Konsep Dasar Docker
+### Platform Docker
+
+Docker menyediakan kemampuan untuk mengemas dan menjalankan aplikasi dalam lingkungan yang terisolasi secara longgar dalamlingkungan yang disebut kontainer. Isolasi dan keamanannya memungkinkan Anda menjalankan banyak hal
+kontainer secara bersamaan pada host yang sama. Kontainer merupkan objek yang ringan dan berisi semua yang dibutuhkan untuk menjalankan aplikasi, jadi Anda tidak perlu bergantung pada apa yang sudah terinstal di host. Anda dapat berbagi kontainer saat bekerja, dan pastikan bahwa setiap orang yang Anda ajak berbagi mendapatkan kontainer yang sama fungsinya.
+
+Docker menyediakan perangkat dan platform untuk mengelola siklus hidup kontainer Anda:
+
+- Kembangkan aplikasi Anda dan komponen pendukungnya menggunakan kontainer.
+- Kontainer tersebut menjadi unit untuk mendistribusikan dan menguji aplikasi Anda.
+- Saat semua siap, sebarkan aplikasi Anda ke lingkungan produksi Anda,
+  sebagai kontainer atau layanan terorkestrasi. Ini bekerja dengan cara yang sama terlepas dari apakah Anda
+  Lingkungan produksi dapat berupa pusat data lokal, penyedia cloud, atau hibrida.
+  dari keduanya.
+
+### Docker Bisa Apa?
+
+- Pengiriman aplikasi Anda yang cepat dan konsisten
+- Penerapan dan penskalaan responsif
+- Menjalankan lebih banyak beban kerja pada perangkat keras yang sama
+- Mengurangi biaya operasional
+
+### Istilah-istilah Dalam Docker
 
 - **Image**: Template untuk membuat container
 - **Container**: Instance berjalan dari image
