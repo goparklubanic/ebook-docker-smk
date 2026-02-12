@@ -15,13 +15,13 @@ Dalam dunia industri, untuk mengatur server, terdapat 2 pendekatan, yaitu:
 
 1. Mengatur server secara manual. Pengguna harus mengatur konfigurasi server secara manual dengan cara mengedit file konfigurasi. Cara ini lebih rumit dan tidak praktis. Di sisi lain cara ini justru lebih fleksibel, karena pengguna mendapatkan kontrol penuh.
 2. Mengatur server melalui web control panel. Web control panel adalah antarmuka web yang disediakan untuk memudahkan pengguna mengatur server. Web control panel menyediakan fitur-fitur untuk mengatur server, tanpa harus mengedit file konfigurasi secara manual. Cara ini lebih mudah dan praktis, namun fleksibilitasnya kurang dibandingkan dengan mengatur server secara manual. Beberapa contoh web control panel adalah:
-3. cPanel
-4. Plesk
-5. Webmin dan virtualmin
-6. Vestacp
-7. Ajenti
-8. Zentyal
-9. aaPanel, dan lain-lain.
+   1. cPanel
+   2. Plesk
+   3. Webmin dan virtualmin
+   4. Vestacp
+   5. Ajenti
+   6. Zentyal
+   7. aaPanel, dan lain-lain.
 
 ## 14.2 Mengapa aaPanel?
 
