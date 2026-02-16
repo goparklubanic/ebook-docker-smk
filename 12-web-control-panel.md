@@ -30,7 +30,7 @@ aaPanel adalah web control panel yang dikembangkan oleh Alibaba Cloud. aaPanel b
 1. Debian, dan distro turunannya, termasuk Ubuntu, Linux Mint, dan sebagainya.
 2. Red Hat, dan distro turunannya, termasuk CentOS, Fedora, dan sebagainya.
 3. SUSE, dan distro turunannya, termasuk openSUSE, dan sebagainya.
-4. Arch Linux, dan distro turunannya, termasuk Manjaro, dan sebagainya.memungkinkan pengguna untuk menghubungkan situs web mereka dengan layanan Cloudflare untuk meningkatkan keamanan dan performa. Dengan integrasi ini, pengguna dapat mengelola pengaturan DNS, mengaktifkan SSL, dan mengatur pengaturan caching langsung dari antarmuka aaPanel, sehingga memudahkan pengelolaan dan optimasi situs.
+4. Arch Linux, dan distro turunannya, termasuk Manjaro, dan sebagainya.
 5. Windows
 6. FreeBSD
 7. OpenBSD
